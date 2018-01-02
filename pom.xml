@@ -11,7 +11,7 @@
         <flyway.version>3.2.1</flyway.version>
         <mysql.driver.version>5.1.13</mysql.driver.version>
         <database.driver>com.mysql.jdbc.Driver</database.driver>
-        <database.url>jdbc:mysql://localhost:3306/customer_dev?autoreconnect=true</database.url>
+        <database.url>jdbc:mysql://localhost:3306/customer_test?autoreconnect=true</database.url>
         <database.username>admin</database.username>
         <database.password>admin</database.password>
     </properties>
@@ -42,7 +42,7 @@
                     <user>${database.username}</user>
                     <password>${database.password}</password>
                     <schemas>
-                        <schema>customer_dev</schema>
+                        <schema>customer_test</schema>
                     </schemas>
                     <locations>
                         <location>sql/migrations</location>
